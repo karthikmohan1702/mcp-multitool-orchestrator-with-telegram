@@ -31,6 +31,12 @@ The orchestrator is designed to be extensible and robust, supporting the integra
 
 ---
 
+## MCP Servers & SSE Protocol
+
+All MCP servers integrated in this project (including DuckDuckGo, Trafilatura, Google Drive/Sheets, and Telegram) communicate using the **Server-Sent Events (SSE)** protocol.
+
+This architecture allows the orchestrator to seamlessly coordinate multiple tools, handle asynchronous responses, and provide users with prompt feedback and results.
+
 ## Usage
 
 1. **Start All MCP Servers:** Launch DuckDuckGo, Trafilatura, GDrive, and Telegram MCP servers as separate processes (see their respective directories).
