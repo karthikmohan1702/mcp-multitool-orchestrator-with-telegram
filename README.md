@@ -9,6 +9,10 @@ The orchestrator is designed to be extensible and robust, supporting the integra
 
 ---
 
+## Youtube Video
+
+https://youtu.be/zZCIdcjtFHs 
+
 ## Features
 
 - **LLM-driven Tool Planning:** Uses Google Gemini to interpret user requests and generate a multi-step plan, expressed as a sequence of MCP tool calls.
