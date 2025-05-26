@@ -76,6 +76,8 @@ https://youtu.be/vt1GdQ-f8NA
 
 ## MCP Servers & Implementation Details
 
+![list_mcp_servers](https://github.com/user-attachments/assets/3f8723ac-2df2-4068-b089-2ca38d19278b)
+
 ### Communication Protocol
 
 All MCP servers integrated in this project (including SerpAPI, Trafilatura, Google Drive/Sheets, and Telegram) communicate using the **Server-Sent Events (SSE)** protocol. This architecture allows the orchestrator to seamlessly coordinate multiple tools, handle asynchronous responses, and provide users with prompt feedback and results.
@@ -110,6 +112,8 @@ The orchestrator uses a dynamic tool discovery mechanism that:
 3. Makes all discovered tools available to the LLM for planning
 
 This approach allows new tools to be added to the system without requiring changes to the orchestrator code.
+
+
 
 ## Usage
 
@@ -216,6 +220,8 @@ mcp-multitool-orchestrator-with-telegram/
 
 ## Module Breakdown
 
+![architecture](https://github.com/user-attachments/assets/e3575edc-2511-4d5f-879d-041d01ef86cc)
+
 ### Core Components
 
 #### `main.py`
@@ -277,6 +283,8 @@ mcp-multitool-orchestrator-with-telegram/
 ---
 
 ## Example Workflow
+
+![orchestrator_workflow](https://github.com/user-attachments/assets/88d1523b-91fc-4571-87eb-6107ea70e31c)
 
 ### F1 Standings Example
 
